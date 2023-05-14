@@ -1,0 +1,28 @@
+.mainimages{
+    height: 600px;
+    width: 100%;
+}
+.main{
+    width: 90%;
+}
+
+@media screen and (max-width:950px) {
+    .main{
+        width: 70%;
+        /* height: 150px; */
+        position: absolute;
+        /* right: 50px; */
+    }
+    
+} 
+@media screen and (max-width:950px) {
+    .part2{
+        
+        position: relative;
+        top: 750px;
+    }
+    .part3{
+        position: relative;
+        top:700px;
+    }
+}

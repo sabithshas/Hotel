@@ -1,0 +1,38 @@
+.background{
+    /* background-image: url('/public/assets/adminbackground1.webp');
+    background-size: cover; */
+    height: 705px;
+    width: 100%;
+    
+    
+}
+.designsname{
+    font-size: 30px;
+    text-align: center;
+}
+.designs{
+    height: 500px;
+}
+.designsimg{
+    height: 490px;
+}
+.admincard{
+    display: flex;
+    justify-content: center; 
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.453);
+    font-weight: 600;
+    font-weight: bold;
+}
+.admintext{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 25px;
+    color: rgba(246, 5, 5, 0.466);
+    font-style: italic;
+}
+.foot{
+    margin-top: 58px;
+}

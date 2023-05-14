@@ -1,0 +1,49 @@
+
+.loginipt{
+    width: 250px;
+    background-color: rgba(0, 255, 255, 0.188);
+    border-radius: 25px;
+    margin-top: 30px;
+    
+}
+.loglab{
+    width: 120px;
+}
+.loginreg{
+    display: flex;
+  justify-content: center;
+  /* margin-top: 180px; */
+  /* margin-left: 90px; */
+  /* background-color: aqua; */
+  width: 100%;
+  height: 600px;
+  
+}
+.column1{
+   width: 100%; 
+   /* background-color: rgb(18, 74, 124); */
+}
+.second{
+   display: flex; 
+   justify-content: center;
+   width: 100%;
+   background-color: antiquewhite;
+   padding-top: 150px;
+}
+.headinglog{
+    /* display: flex;
+    justify-self:center; */
+
+   /* padding-left: 150px; */
+}
+/* forms{
+    padding-top: 50px;
+} */
+/* @media screen and (max-width:700px) {
+   
+} */
+.loginbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

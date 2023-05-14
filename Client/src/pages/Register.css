@@ -1,0 +1,57 @@
+.max{
+    background-image: url('/public/assets/background imagereg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 745px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding-top: 7%;
+    background-color: rgba(216, 226, 37, 0.244);
+    height: 600px;
+    width: 800px;   
+}
+.labels{
+    width: 200px;
+    font-size: 20px;
+    color: rgb(12, 12, 11);
+    font-style: italic;
+}
+.tests{
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: rgba(250, 235, 215, 0.289);
+    border: none;
+    border-bottom: solid;
+    font-size: 20px;
+    color: brown;
+}
+.regbtn{
+    width: 250px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    background-color: rgba(250, 235, 215, 0.367);
+    font-size: 20px;
+}
+.regbbtn{
+    display: flex;
+    justify-content: center;
+
+}
+@media screen and (max-width:575px) {
+    .fill{
+        display: block;
+        text-align: center;
+    }
+}

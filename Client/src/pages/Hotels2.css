@@ -1,0 +1,39 @@
+.cardimage{
+    /* display: flex; */
+    width: 18rem;
+    padding-left: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px rgb(171, 169, 169);
+}
+.var{
+    display: flex;
+    justify-content: center;
+   
+}
+.rimg{
+    width: 260px;
+    height: 300px;
+}
+
+.details{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.475);
+}
+
+@media screen and (max-width:850px) {
+    .var{
+        display: block;
+        /* text-align: center; */
+        position: relative;
+        left: 25%;
+    }
+}
+@media screen and (max-width:510px) {
+    .var{
+        position: relative;
+        left: 10%;
+    }
+}
+.ftr{
+    margin-top: 40px;
+}

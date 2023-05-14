@@ -1,0 +1,49 @@
+.userregistration{
+    margin-top: 10px;
+    background-image: url('/public/assets/userreg.jpg');
+    background-size: cover;
+    height: 730px;
+    justify-content: center;
+    background-position: center;
+}
+.userform{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    
+}
+.userlabel{
+    width: 250px;
+    color: aliceblue;
+    font-size: 30px;
+    font-style:italic ;
+    margin-top: 20px;
+}
+.userinput{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: rgba(198, 16, 16, 0.266);
+}
+.userbtndiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.userbtn{
+    width: 150px;
+    background-color: gray;
+    color: antiquewhite;
+}
+@media screen and (max-width:550px) {
+    .userform{
+        padding-top: 0;
+    }
+    .userlabel{
+        margin-top: 5px;
+    }
+    .userbtndiv{
+        margin-top: 30px;
+    }
+}

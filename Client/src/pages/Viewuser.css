@@ -1,0 +1,51 @@
+
+.userview{
+    width:380px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.818);
+    border: solid;
+    box-shadow: 10px 10px 10px 10px rgb(114, 80, 80);
+    
+    
+    
+}
+.usercontainer{
+    /* background-color: antiquewhite; */
+}
+.usertext{
+    /* width:300px; */
+    text-align: left;
+    color: rgb(240, 6, 6);
+    font-size: 23px;
+    position: relative;
+    left: 60px;
+   
+}
+/* .viewuserbutton{
+    margin: 20px;
+} */
+.userbutton{
+    width: 100px;
+    margin: 15px;
+    border-radius: 8px;
+    
+}
+.useerview{
+    background-color: rgba(30, 30, 231, 0.629);
+    color: rgb(255, 255, 255);
+}
+.useeredit{
+    background-color: rgba(38, 185, 5, 0.592);
+    color: rgb(51, 55, 55);
+}
+.userdeleete{
+    background-color: rgba(255, 0, 4, 0.642);
+    color: rgb(239, 164, 66);
+}
+@media screen and (max-width:960px){
+    .usercontainer{
+        display: flex;
+        justify-content: center;
+    }
+    
+}

@@ -1,0 +1,29 @@
+.card-main{
+    width: 950px;
+    /* height: 400px; */
+    margin:20px;
+    
+    
+}
+.mainroom{
+    
+    position: absolute;
+    left: 270px;
+
+}
+
+.new{
+    height: 450px;
+}
+.wifi{
+    color: brown;
+    font-style: italic;
+}
+.book{
+    display: flex;
+    justify-content: center;
+}
+.bttn{
+    width: 150px;
+    color: aliceblue;
+}

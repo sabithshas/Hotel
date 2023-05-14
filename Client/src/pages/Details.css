@@ -1,0 +1,13 @@
+.art{
+    color: rgb(255, 255, 255);
+    border: red solid;
+    background-color: rgb(2, 2, 2);
+}
+.trees{
+    border: red solid;
+    background-color: aliceblue;
+    font-size: 15px;
+}
+/* .btn{
+    padding: 10px;
+} */
